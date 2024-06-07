@@ -1,0 +1,27 @@
+p{
+  background-color: bisque;
+  color: cornflowerblue;
+}
+*{
+  background-color: rgb(9, 9, 9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  text-align: center;
+  
+  text-transform: uppercase;
+}
+img{
+  border-radius: 50%;
+  border: 2px solid white;
+  /* margin-left: 42%; */
+  display: block;
+  margin: auto;
+}
+body{
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+}
+button{
+  height: 30px;
+  width: 30px;
+}
