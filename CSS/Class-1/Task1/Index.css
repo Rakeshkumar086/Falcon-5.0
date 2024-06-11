@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#Rdiv{
+  display: flex;
+  justify-content: center;
+  
+}
+#Maindiv{
+  height: 335px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.outsidediv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.innerdiv{
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
